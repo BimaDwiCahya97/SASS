@@ -1,0 +1,40 @@
+.main{
+    background-color: #312929;
+
+    .main-heading{
+    font-size: 2em;
+    }
+    .main-paragraph{
+        font-size: 1.4em;
+    }
+}
+.main, footer{
+    h1,p{
+        letter-spacing: 2px;
+    }
+}
+.main {
+    .container &{
+        background-color: #04c9fa;
+    }
+    &:hover{
+        background-color: greenyellow;
+    }
+}
+body {
+    html &{
+        width: 600px;
+        margin: 20px auto;
+        border: 1px solid black;
+        padding: 5px;
+    }
+}
+
+.main{
+    & &-heading{
+        font-size: 2em;
+    }
+    & &-paragraph{
+        font-size: 1.4em;
+    }
+}
