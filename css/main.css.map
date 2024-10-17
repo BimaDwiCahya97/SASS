@@ -1,1 +1,1 @@
-{"version":3,"sources":["../Nesting/main.scss","main.css"],"names":[],"mappings":"AAAA;EACI,yBAAA;ACCJ;ADCI;EACA,cAAA;ACCJ;ADCI;EACI,gBAAA;ACCR;;ADGI;EACI,mBAAA;ACAR;;ADII;EACI,yBAAA;ACDR;ADGI;EACI,6BAAA;ACDR;;ADKI;EACI,YAAA;EACA,iBAAA;EACA,uBAAA;EACA,YAAA;ACFR;;ADOI;EACI,cAAA;ACJR;ADMI;EACI,gBAAA;ACJR","file":"main.css"}
+{"version":3,"sources":["../variable/SASS/main.scss","main.css"],"names":[],"mappings":"AAkBA;EAEI,iCANG;EAOH,0CAAA;AClBJ;;ADoBA;EAEI,sBADO;ACjBX;;ADoBA;EACI,yBAZG;EAaH,0CAVM;ACPV;;ADmBA;EAEI,gBADO;AChBX;;AD+BA;EACI,uBAAA;AC5BJ","file":"main.css"}

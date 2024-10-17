@@ -1,0 +1,50 @@
+// // CSS variables
+// :root{
+//     --primary: blue;
+//     --dark: rgb(59, 57, 57);
+// }
+// body{
+//     background-color: var(--dark);
+// }
+// h1{
+//     background-color: var(--primary);
+// }
+
+// SASS Variables have a scope
+$primary: blue;
+$dark: rgb(31, 30, 30);
+$bright: rgb(187, 187, 187);
+$skin: rgb(212, 212, 170);
+
+body{
+    $poo: rgba(116, 32, 32, 0.363) !global ;
+    background-color: $dark;
+    border: 1px solid $poo;
+}
+h1{
+    $skin: rgb(59, 59, 59);//replacing the global variable
+    color: $skin;
+}
+p{
+    color: $skin;
+    background-color: $poo;
+}
+code{
+    $skin: lightblue !global;
+    color:$skin
+}
+
+// map
+
+// $alert-danger: red;
+// $alert-success: green;
+// $alert-warning: orange;
+
+$alert:(
+    'danger': red,
+    'success': green,
+    'warning':orange,
+);
+code{
+    background-color: map-get($alert, 'success');
+}

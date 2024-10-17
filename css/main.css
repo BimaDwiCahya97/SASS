@@ -1,34 +1,21 @@
-.main {
-  background-color: #312929;
-}
-.main .main-heading {
-  font-size: 2em;
-}
-.main .main-paragraph {
-  font-size: 1.4em;
+body {
+  background-color: rgb(31, 30, 30);
+  border: 1px solid rgba(116, 32, 32, 0.363);
 }
 
-.main h1, .main p, footer h1, footer p {
-  letter-spacing: 2px;
+h1 {
+  color: rgb(59, 59, 59);
 }
 
-.container .main {
-  background-color: #04c9fa;
-}
-.main:hover {
-  background-color: greenyellow;
+p {
+  color: rgb(212, 212, 170);
+  background-color: rgba(116, 32, 32, 0.363);
 }
 
-html body {
-  width: 600px;
-  margin: 20px auto;
-  border: 1px solid black;
-  padding: 5px;
+code {
+  color: lightblue;
 }
 
-.main .main-heading {
-  font-size: 2em;
-}
-.main .main-paragraph {
-  font-size: 1.4em;
+code {
+  background-color: green;
 }/*# sourceMappingURL=main.css.map */
