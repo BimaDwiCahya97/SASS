@@ -1,21 +1,54 @@
 body {
-  background-color: rgb(31, 30, 30);
-  border: 1px solid rgba(116, 32, 32, 0.363);
+  background-color: #979797;
 }
 
-h1 {
-  color: rgb(59, 59, 59);
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.header ul li {
+  display: inline-block;
+}
+.header ul li {
+  background-color: black;
+  padding: 0.7em;
+}
+.header ul li a {
+  color: white;
 }
 
-p {
-  color: rgb(212, 212, 170);
-  background-color: rgba(116, 32, 32, 0.363);
+.footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer ul li {
+  display: inline-block;
+}
+.footer ul li {
+  padding: 0.4em;
+  background-color: salmon;
+}
+.footer ul li a {
+  color: white;
+  text-decoration: none;
 }
 
-code {
-  color: lightblue;
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 3px;
+  flex-direction: row-reverse;
+  width: 600px;
+  height: 400px;
+  background-color: whitesmoke;
 }
-
-code {
-  background-color: green;
+.container .box {
+  width: 60px;
+  height: 60px;
+  background-color: limegreen;
+  text-align: center;
+  line-height: 60px;
 }/*# sourceMappingURL=main.css.map */
